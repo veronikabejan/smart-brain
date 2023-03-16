@@ -79,7 +79,7 @@ const initialState = {
       .then(response => response.json())
       .then(response => {
         if (response) {
-          fetch('https://smartbrain-api-f73z.onrender.com:3001/image', {
+          fetch('https://smartbrain-api-f73z.onrender.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
